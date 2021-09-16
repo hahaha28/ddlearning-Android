@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ASMIdeaPluginConfiguration">
+    <asm skipDebug="true" skipFrames="true" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/drawable/button_selectdialog_miui_blue.xml" value="0.421875" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/drawable/editbox_dialog_bkg_miui_dark.xml" value="0.421875" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/drawable/editbox_dialog_bkg_miui_light.xml" value="0.421875" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/drawable/rect_miui_button_blue_light_normal.xml" value="0.421875" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/drawable/rect_miui_button_blue_light_press.xml" value="0.421875" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/drawable/rect_miui_editbox_bkg_light_focus.xml" value="0.421875" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/layout-v21/item_share_material.xml" value="0.40572916666666664" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/layout/bottom_menu_miui.xml" value="0.40572916666666664" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/layout/dialog_select_miui.xml" value="0.40572916666666664" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/layout/dialog_share_miui.xml" value="0.40572916666666664" />
+        <entry key="..\:/Users/junjie.lin/.gradle/caches/transforms-3/2077f772de9f9b70889c58b169e72596/transformed/jetified-dialog-3.2.4/res/layout/item_bottom_menu_miui.xml" value="0.40572916666666664" />
+        <entry key="..\:/code/android/ddlearning/app/src/main/res/drawable/dialog_ok_btn_drawable.xml" value="0.421875" />
+        <entry key="..\:/code/android/ddlearning/app/src/main/res/drawable/ic_right.xml" value="0.421875" />
+        <entry key="..\:/code/android/ddlearning/app/src/main/res/drawable/ripple.xml" value="0.421875" />
+        <entry key="..\:/code/android/ddlearning/app/src/main/res/layout/activity_task_detail.xml" value="0.40572916666666664" />
+        <entry key="..\:/code/android/ddlearning/app/src/main/res/layout/activity_task_list.xml" value="0.40572916666666664" />
+        <entry key="..\:/code/android/ddlearning/app/src/main/res/layout/item_task.xml" value="0.40572916666666664" />
+        <entry key="..\:/code/android/ddlearning/app/src/main/res/layout/item_task_detail.xml" value="0.40572916666666664" />
+        <entry key="..\:/code/android/ddlearning/app/src/main/res/menu/task_detail_menu.xml" value="0.40572916666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
