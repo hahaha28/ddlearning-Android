@@ -5,12 +5,15 @@ import android.graphics.drawable.ColorDrawable
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import com.kongzue.dialog.util.DialogSettings
+import com.tencent.mmkv.MMKV
 
 class MyApplication :Application(){
 
     override fun onCreate() {
         super.onCreate()
         initDialogSetting()
+
+        MMKV.initialize(this)
     }
 
     private fun initDialogSetting(){

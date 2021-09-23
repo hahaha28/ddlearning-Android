@@ -11,12 +11,14 @@ import com.example.ddlearning.R
 import com.example.ddlearning.adapter.TaskListRVAdapter
 import com.example.ddlearning.bean.Task
 import com.example.ddlearning.databinding.ActivityTaskListBinding
+import com.example.ddlearning.network.ServiceCreator
 import com.example.ddlearning.network.networkService
 import com.example.ddlearning.viewmodel.TaskListViewModel
 import com.google.android.material.timepicker.MaterialTimePicker
 import com.google.android.material.timepicker.TimeFormat
 import com.hi.dhl.binding.viewbind
 import com.jeremyliao.liveeventbus.LiveEventBus
+import com.kongzue.dialog.v3.InputDialog
 import com.kongzue.dialog.v3.MessageDialog
 import com.kongzue.dialog.v3.WaitDialog
 import com.scwang.smart.refresh.header.MaterialHeader
@@ -85,7 +87,14 @@ class TaskListActivity : AppCompatActivity() {
         }
 
         binding.newTaskButton.setOnLongClickListener {
-
+            InputDialog.show(this,"修改端口号","当前端口：${ServiceCreator.getPort()}")
+                .setHintText("7000")
+                .setOnOkButtonClickListener { baseDialog, v, inputStr ->
+                    ServiceCreator.modifyPort(inputStr)
+                    baseDialog.doDismiss()
+                    MessageDialog.show(this,"提示","请重启生效！","确定")
+                    true
+                }
             true
         }
 

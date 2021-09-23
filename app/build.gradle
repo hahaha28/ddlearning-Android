@@ -55,6 +55,7 @@ dependencies {
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.6'
 
     implementation 'io.github.jeremyliao:live-event-bus-x:1.8.0' // eventbus
+    implementation 'com.tencent:mmkv-static:1.2.10' // MMKV
 
     implementation "androidx.core:core-ktx:1.6.0" // 核心扩展
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-alpha03" // lifecycle kotlin扩展

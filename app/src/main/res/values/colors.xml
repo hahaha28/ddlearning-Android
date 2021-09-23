@@ -10,4 +10,5 @@
 
     <color name="theme">#7ABD9A</color>
     <color name="rippleColor">#EEEEEE</color>
+    <color name="divider">#F5F6FA</color>
 </resources>
